@@ -1,4 +1,4 @@
 <ol>Students Index
-<%@students.all.each do |student|%>
-<li><%=student.first_name%></li>
+<% @students.each do |student|%>
+<li> <%=student.first_name%> </li>
 <% end %>
